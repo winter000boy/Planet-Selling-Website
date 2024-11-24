@@ -51,3 +51,38 @@ ul li a{
     background-color: black;
     color: white;
 }
+
+main{
+    display: flex;
+    height: 90vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.contenleft{
+    flex: 1;
+}
+
+.contentmid{
+    padding: 50px;
+    flex: 2;
+}
+
+.contentright{
+    flex: 1;
+}
+.mercury-img{
+    max-width: 300px;
+    height: auto;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: white;
+    outline: none;
+    color: black;
+    border: none;
+    border-radius: 50px;
+}
